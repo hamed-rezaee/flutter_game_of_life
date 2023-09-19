@@ -27,7 +27,7 @@ class GameOfLifePainter extends CustomPainter {
 
         canvas.drawRRect(
           RRect.fromRectAndRadius(rect, const Radius.circular(4)),
-          paint..maskFilter = MaskFilter.blur(BlurStyle.solid, 8),
+          paint..maskFilter = const MaskFilter.blur(BlurStyle.solid, 8),
         );
       }
     }

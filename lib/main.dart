@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.black,
           body: Center(
             child: StreamBuilder<List<List<bool>>>(
-              stream: GameOfLife(50)(),
+              stream: GameOfLife(85)(),
               initialData: const <List<bool>>[],
               builder: (
                 BuildContext context,
