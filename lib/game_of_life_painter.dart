@@ -14,7 +14,7 @@ class GameOfLifePainter extends CustomPainter {
 
       for (int j = 0; j < row.length; j++) {
         final bool alive = row[j];
-        final Color color = alive ? Colors.orange : Colors.black;
+        final Color color = alive ? Colors.red : Colors.black;
 
         final Paint paint = Paint()..color = color;
 

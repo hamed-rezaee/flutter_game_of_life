@@ -6,7 +6,7 @@ class GameOfLife {
   final int size;
 
   Stream<List<List<bool>>> call([
-    Duration duration = const Duration(milliseconds: 50),
+    Duration duration = const Duration(milliseconds: 32),
   ]) async* {
     final List<List<bool>> grid = <List<bool>>[];
 
