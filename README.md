@@ -1,6 +1,6 @@
 # Game of Life in Flutter
 
-This is a simple implementation of Conway's Game of Life in Flutter, a cellular automaton simulation. The code includes a custom painter to visualize the game grid and a class to manage the game logic.
+This is a simple implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in Flutter, a cellular automaton simulation. The code includes a custom painter to visualize the game grid and a class to manage logic.
 
 ![Game of Life in Flutter](game_of_life.gif)
 
